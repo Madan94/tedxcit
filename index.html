@@ -94,8 +94,18 @@
                 src="./img/core-img/tedx-logo-white.png"
                 width="240rem"
                 alt=""
-                loading="lazy" style="padding:15px;"
+                loading="lazy" style="padding:15px;" class="tedx-logo"
             /></a>
+            <style>
+              @media all and (max-width:765px){
+              .tedx-logo {
+                width: 120% !important;
+                height: auto !important;
+                padding: 0 !important;
+                max-width: 250px;
+              }
+              }
+            </style>
 
             <!-- Navbar Toggler -->
             <div class="classy-navbar-toggler">
@@ -137,6 +147,9 @@
     </header>
     <!-- Header Area End -->
 
+    
+
+
     <!-- Welcome Area Start -->
     <section class="welcome-area">
       <div class="welcome-slides owl-carousel">
@@ -145,7 +158,7 @@
           <div class="bg-container h-100 bg-img">
             <div class="row h-100 align-items-center">
               <!-- Welcome Text -->
-              <div class="col-12 d-flex justify-content-center align-items-center p-5 mt-1">
+              <div class="col-12 d-flex justify-content-center align-items-center p-5 ">
                 <div class="welcome-text text-left w-50">
                   <h2 data-animation="fadeInUp" data-delay="300ms" id="main-head">
                     We Share <span style="color:#eb0028">ideas</span> worth spreading
@@ -238,183 +251,144 @@
     </section>
 
     <!-- Our Speakings Area Start -->
-    <section
-      class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60"
-      style="background-image: url(img/bg-img/boudha.jpg)"
-    >
-      <div class="container">
-        <div class="row">
-          <!-- Heading -->
-          <div class="col-12">
-            <div
-              class="section-heading text-center wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <p>Speaker Panel</p>
-              <h4>PAST SPEAKERS</h4>
-            </div>
-          </div>
-        </div>
+   <section
+   class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60"
+   style="background-image: url(/img/bg-img/bg.jpg)"
+ >
+   <div class="container">
+     <div class="row">
+       <!-- Heading -->
+       <div class="col-12">
+         <div
+           class="section-heading text-center wow fadeInUp"
+           data-wow-delay="300ms"
+         >
+           <p>Speaker Panel</p>
+           <h4>Who's speaking</h4>
+         </div>
+       </div>
+     </div>
 
-        <div class="row align-items-center">
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker1.svg" alt="" loading="lazy" />
-              </div>
+     <div class="row align-items-center">
+       <!-- Single Speaker Area -->
+       <div class="col-12 col-md-6 col-lg-4">
+         <div
+           class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
+           data-wow-delay="300ms"
+         >
+           <!-- Thumb -->
+           <div class="speaker-single-thumb">
+             <img src="/img/speakers/tedx1.jpg" alt="" loading="lazy" />
+           </div>
 
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>Ajesh Saklecha</h5>
-                <p>CO-FOUNDER & STRATEGY
-                  TRIDE MOBILITY</p>
-              </div>
-            </div>
-          </div>
+           <!-- Info -->
+           <div class="speaker-info">
+             <h5>Rathinavel Rajan S</h5>
+             <p>HR Head, Ball Corporation</p>
+           </div>
+         </div>
+       </div>
 
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker2.svg" alt="" loading="lazy" />
-              </div>
+       <!-- Single Speaker Area -->
+       <div class="col-12 col-md-6 col-lg-4">
+         <div
+           class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
+           data-wow-delay="300ms"
+         >
+           <!-- Thumb -->
+           <div class="speaker-single-thumb">
+             <img src="/img/speakers/tedx2.png" alt="" loading="lazy" />
+           </div>
 
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>Hussain Ahmed</h5>
-                <p>MANAGING DIRECTOR, CHERAN ACADEMY </p>
-              </div>
-            </div>
-          </div>
+           <!-- Info -->
+           <div class="speaker-info">
+             <h5>Dr. Santosh Karthikeyan Viswanathan</h5>
+             <p>Global Technical Director, Clinical Data & Insights, AstraZeneca</p>
+           </div>
+         </div>
+       </div>
 
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker3.svg" alt="" loading="lazy" />
-              </div>
+       <!-- Single Speaker Area -->
+       <div class="col-12 col-md-6 col-lg-4">
+         <div
+           class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
+           data-wow-delay="300ms"
+         >
+           <!-- Thumb -->
+           <div class="speaker-single-thumb">
+             <img src="/img/speakers/tedx3.jpeg" alt="" loading="lazy" />
+           </div>
 
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>Shyam Siddarth</h5>
-                <p>FOUNDER & CEO,
-                  TAMILPRENEUR</p>
-              </div>
-            </div>
-          </div>
+           <!-- Info -->
+           <div class="speaker-info">
+             <h5>Krithivasan</h5>
+             <p>Independant Consultant</p>
+           </div>
+         </div>
+       </div>
 
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker4.svg" alt="" loading="lazy" />
-              </div>
+       <!-- Single Speaker Area -->
+       <div class="col-12 col-md-6 col-lg-4">
+         <div
+           class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
+           data-wow-delay="300ms"
+         >
+           <!-- Thumb -->
+           <div class="speaker-single-thumb">
+             <img src="/img/speakers/tedx4.jpg" alt="" loading="lazy" />
+           </div>
 
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>Edward W Rogers</h5>
-                <p>VISITING FACULTY,
-                  INDIAN SCHOOL OF BUSINESS</p>
-              </div>
-            </div>
-          </div>
+           <!-- Info -->
+           <div class="speaker-info">
+             <h5>Shammy Narayanan</h5>
+             <p>Chief Solution Architect, Welldoc</p>
+           </div>
+         </div>
+       </div>
 
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker5.svg" alt="" loading="lazy" />
-              </div>
+       <!-- Single Speaker Area -->
+       <div class="col-12 col-md-6 col-lg-4">
+         <div
+           class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
+           data-wow-delay="300ms"
+         >
+           <!-- Thumb -->
+           <div class="speaker-single-thumb">
+             <img src="/img/speakers/tedx5.jpg" alt="" loading="lazy" />
+           </div>
 
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>Padmini Janaki</h5>
-                <p>CO-FOUNDER & CEO,
-                  MIND&MOM</p>
-              </div>
-            </div>
-          </div>
+           <!-- Info -->
+           <div class="speaker-info">
+             <h5>Dakshin</h5>
+             <p>Entrepreneur (Founder), Blooomit</p>
+           </div>
+         </div>
+       </div>
 
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker6.svg" alt="" loading="lazy" />
-              </div>
-
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>J Neha Susan</h5>
-                <p>Student,
-                  CIT CHENNAI GROUP OF INSTITUTIONS</p>
-              </div>
-            </div>
+       <!-- Single Speaker Area -->
+       <div class="col-12 col-md-6 col-lg-4">
+        <div
+          class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
+          data-wow-delay="300ms"
+        >
+          <!-- Thumb -->
+          <div class="speaker-single-thumb">
+            <img src="/img/speakers/tedx6.jpeg" alt="" loading="lazy" />
           </div>
 
-          <!-- Single Speaker Area -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <!-- Thumb -->
-              <div class="speaker-single-thumb">
-                <img src="img/speakers/speaker7.svg" alt="" loading="lazy" />
-              </div>
-
-              <!-- Info -->
-              <div class="speaker-info">
-                <h5>Srutanjay Narayanan IAS</h5>
-                <p>ADDITIONAL COLLECTOR (DEVELOPMENT),
-                  VILLUPURAM</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4">
-            <div
-              class="single-speaker-area wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <div
-                class="more-speaker-btn text-center mt-20 mb-40 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <a class="btn confer-btn-white" href="/tedx/speakers.html"
-                  >Explore Speakers <i class="zmdi zmdi-long-arrow-right"></i
-                ></a>
-              </div>
-            </div>
+          <!-- Info -->
+          <div class="speaker-info">
+            <h5>Bilal Shariff H</h5>
+            <p>Senior Assistant Vice President, Wells Fargo</p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Our Speakings Area End -->
+
+     </div>
+   </div>
+ </section>
+ <!-- Our Speakings Area End -->
+
 
     <!-- Contact Area Start -->
     <section class="contact-our-area section-padding-100-0">
