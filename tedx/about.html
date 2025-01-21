@@ -35,11 +35,21 @@
             <!-- Logo -->
             <a class="nav-brand" href="/index.html"
               ><img
-                src="/img/core-img/tedx-logo-white.png"
+                src="./img/core-img/tedx-logo-white.png"
                 width="240rem"
                 alt=""
-                loading="lazy" style="padding:15px;"
+                loading="lazy" style="padding:15px;" class="tedx-logo"
             /></a>
+            <style>
+              @media all and (max-width:765px){
+              .tedx-logo {
+                width: 120% !important;
+                height: auto !important;
+                padding: 0 !important;
+                max-width: 250px;
+              }
+              }
+            </style>
 
             <!-- Navbar Toggler -->
             <div class="classy-navbar-toggler">
